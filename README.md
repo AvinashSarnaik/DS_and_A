@@ -1,2 +1,3 @@
 # DS_and_A
-Playground for optimizing code
+
+Interesting algo problems and optimum solutions.
