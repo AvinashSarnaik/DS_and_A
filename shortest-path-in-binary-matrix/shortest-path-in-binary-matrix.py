@@ -1,7 +1,7 @@
 ## since we are asked a shortest path 
 ## let's use BFS
 
-## FOR BFS --> use queue (priority queue if it is single source shortest path to all other nodes) for DFS we use recursive stack.
+## FOR BFS --> use queue for DFS we use recursive stack.
 
 ## CHECK VISITED needed --> from the look of it we can move backward 
 ## and we do not have gurantee that we reach grid[-1][-1] 
