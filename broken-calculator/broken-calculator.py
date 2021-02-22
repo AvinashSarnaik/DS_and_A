@@ -1,11 +1,13 @@
 ## REDUCE AND DOUBLE WILL ALWAYS BE BETTER THAN DOUBLE AND REDUCE
 ## HOW ??
 ## Suppose we want to achive 100 from 55 -->
-## we can 55 --> 110 --> 100 (10) // 55 --> 54 --> 108 --> 100 (8)
-## 55-->54-->53--> 106 --> 100 (6)
-## 55 --------> 50 (5) --> 100            ---- this will always be equal to or better than double as is and reduce.
+## we can 55 --> 110 --> 100 (10) [11] // 55 --> 54 --> 108 --> 100 (8) [10]
+## 55-->54-->53--> 106 --> 100 (6) [9]
+## 55 --------> 50 (5) --> 100   [6]         ---- this will always be equal to or better than double as is and reduce.
 
-## so we try to get to nearest half and then double it rather than go beyond y//2 and trying to reduce it one by one ---- 55 --> 50 --> 100 preferred over 55 --> 110 --> 100
+## so we try to get to nearest half and then double it rather than go beyond y//2-- double that --- then try to reduce it one by one 
+## we rather reduce 55 to nearest target half (100//2) than doubling and reducing one by one.
+## for odd the target is next number to target//2 so it is (target+1)//2
 
 
 class Solution:
